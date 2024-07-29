@@ -1,0 +1,55 @@
+/* Đường dẫn tới file font, tuỳ thuộc vào cấu trúc thư mục của dự án của bạn */
+@font-face {
+    font-family: 'Pacifico';
+    src: url('/src/assets/fonts/Pacifico.ttf') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+button:focus {
+    outline: none;
+}
+
+.header-site {
+    height: 10vh;
+    background-color: transparent;
+}
+
+#header-navbar {
+    font-family: "Pacifico", sans-serif;
+    font-size: 32px;
+}
+
+.header-item-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.takashimaya-header-logo {
+    max-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.takashimaya-header-logo img {
+    width: 100%;
+    -webkit-user-drag: none;
+}
+
+.nav-link {
+    color: #222;
+}
+
+.nav-link:hover {
+    color: #ef1c24;
+}
+
+.header-item-active {
+    color: #ef1c24;
+}
+
+
